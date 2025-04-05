@@ -1,8 +1,8 @@
 import streamlit as st
 import os
-from app.parser import parse_resume
-from app.utils import extract_details, highlight_skills_in_text
-from app.matcher import match_resume_to_jd
+from parser import parse_resume
+from utils import extract_details, highlight_skills_in_text
+from matcher import match_resume_to_jd
 import pandas as pd
 import plotly.express as px
 
